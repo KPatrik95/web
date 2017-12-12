@@ -1,0 +1,75 @@
+body{
+    background-color: wheat;
+}
+
+.container{
+    background-color: transparent;
+
+}
+.cuccoklinkek li{
+    text-decoration: none;
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1920px;
+    }
+}
+.fejléc-logo{
+
+}
+.fejléc-név{
+    color: black;
+    font-size: 20px;
+}
+.col-5{
+    text-align: center;
+}
+.col-5 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+
+.fejlesztesbox body {
+    text-align: center;
+}
+.szövegtörzscim{
+    margin-bottom: 30px;
+}
+img{
+    height: auto;
+}
+
+.választóvonal{
+    margin: 10px;
+}
+
+.col{
+    text-align: center;
+}
+.lábléc-infok ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+}
+
+.lábléc-infok li {
+    padding-left: 16px;
+}
+
+.lábléc-infok li:before {
+    content: "•"; /* Insert content that looks like bullets */
+    padding-right: 8px;
+    color: #000000; /* Or a color you prefer */
+}
+
+.lábléc-középső ul{
+    list-style: none; /* Remove list bullets */
+    padding: 0;
+    margin: 0;
+}
+.szövegrólam{
+    font-size: 14px;
+}
